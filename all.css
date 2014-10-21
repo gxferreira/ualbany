@@ -861,3 +861,46 @@ ul.bottomspace li {
 	background:#D2D2D2;
 	width:210px;
 }
+
+
+@media(max-width: 1005px){
+	#sidebar{
+		display: none;
+	}
+
+	#twocolumns{
+		float: left;
+	}
+
+	.main-gallery{
+		display: none;
+	}
+
+	#nav{
+		width: 100%;
+	}
+
+	#nav a{
+		text-indent: 0;
+		background: none;
+	}
+}
+
+@media(max-width: 800px){
+	.aside{
+		display: none;
+	}
+
+	#content{
+		width: 100%;
+	}
+
+	#wrapper{
+		width: 100%;
+	}
+
+	.logo{
+		max-width: 100%;
+	}
+}
+
